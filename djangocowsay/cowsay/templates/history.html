@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/cowsay.css' %}" />
+    <title>Cowsay History</title>
+  </head>
+  <body>
+    <h1>Cowsaid</h1>
+    <h2>Ten most recent things a cow has said.</h2>
+    <ol>
+    {% for line in history_data reversed %}
+<li class="cowtext">{{line}}</li>
+    {% endfor %}
+    </ul>
+  </body>
+</html>

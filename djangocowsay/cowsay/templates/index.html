@@ -1,9 +1,23 @@
-<h1>Web-based Cowsays</h1>
-welcome to cowsays on the web
-{{ display_text }}
-
-<form action="" method="post">
-    {% csrf_token %}
-    {{ empty_form.as_p }}
-    <input type="submit" value="Submit!">
-</form>
+{% load static %}
+<html>
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/cowsay.css' %}" />
+    <title>Cowsay</title>
+  </head>
+  <body>
+    <h1>Web-based Cowsay</h1>
+    welcome to cowsay on the web {% if display_text %}
+    <p class="cowtext">
+{{ display_text}}
+    </p>
+    {% endif %}
+    <br/>
+    <form action="" method="post">
+      {% csrf_token %} {{ empty_form.as_p }}
+      <input type="submit" value="Submit!" />
+    </form>
+    Look at the <a href="./history">history</a>
+  </body>
+</html>
