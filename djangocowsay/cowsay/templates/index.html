@@ -1,0 +1,9 @@
+<h1>Web-based Cowsays</h1>
+welcome to cowsays on the web
+{{ display_text }}
+
+<form action="" method="post">
+    {% csrf_token %}
+    {{ empty_form.as_p }}
+    <input type="submit" value="Submit!">
+</form>
