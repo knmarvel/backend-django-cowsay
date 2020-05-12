@@ -4,5 +4,7 @@ h1 {
 
 .cowtext {
     font-family: monospace;
+    font: white;
     white-space: pre-wrap;
+    border: 5px solid black;
 }

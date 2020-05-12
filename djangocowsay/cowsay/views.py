@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from cowsay.forms import InputTextForm
 from cowsay.models import InputText
+from cowsay.helpers import cow_translator
 import subprocess
 
 def index(request):
@@ -8,10 +9,12 @@ def index(request):
     if request.method == 'POST':
         form = InputTextForm(request.POST)
         if form.is_valid():
-            text = form.cleaned_data.get('text')
-            display_text = cow_translator(text, "cow")
+            text = form.cleaned_data.get("text").replace("'","")
+            cow = form.cleaned_data.get("cow")
+            display_text = cow_translator(text, cow)
             InputText.objects.create(
-                text=text
+                text=text,
+                cow=cow
             )
 
             return render(request, "index.html", {"text": text, "display_text": display_text, "empty_form": empty_form})
@@ -22,10 +25,5 @@ def history(request):
     objects_of_history_data = objects_of_history_data[len(objects_of_history_data)-10:]
     history_data = []
     for item in objects_of_history_data:
-        history_data.append(cow_translator(item, "cow"))
+        history_data.append(cow_translator(item, item.cow))
     return render(request, "history.html", {"history_data": history_data})
-
-def cow_translator(text, cow_version):
-    if cow_version == "cow":
-        display_text = subprocess.Popen(f"cowsay {text}", shell=True, stdout=subprocess.PIPE).stdout.read()
-        return display_text.decode('utf8')

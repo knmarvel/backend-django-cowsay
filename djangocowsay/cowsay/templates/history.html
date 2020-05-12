@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/cowsay.css' %}" />
-    <title>Cowsay History</title>
+    <title>Cowsaid</title>
   </head>
   <body>
     <h1>Cowsaid</h1>
@@ -12,6 +12,7 @@
     <ol>
     {% for line in history_data reversed %}
 <li class="cowtext">{{line}}</li>
+<br/>
     {% endfor %}
     </ul>
   </body>
