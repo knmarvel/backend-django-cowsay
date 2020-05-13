@@ -16,7 +16,7 @@ def index(request):
                 cow=cow
             )
 
-            return render(request, "index.html", {"text": text, "display_text": display_text, "empty_form": empty_form})
+            return render(request, "index.html", {"display_text": display_text, "empty_form": empty_form})
     return render(request, "index.html", {"empty_form": empty_form})
 
 def history(request):
