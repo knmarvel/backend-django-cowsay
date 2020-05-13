@@ -24,5 +24,5 @@ def history(request):
     objects_of_history_data = objects_of_history_data[len(objects_of_history_data)-10:]
     history_data = []
     for item in objects_of_history_data:
-        history_data.append(cow_translator(item, item.cow))
+        history_data.append(cow_translator(item.text, item.cow))
     return render(request, "history.html", {"history_data": history_data})
