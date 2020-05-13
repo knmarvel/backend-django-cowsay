@@ -15,7 +15,7 @@ description = "The famous cowsay for GNU/Linux is now available for python"
 name = "cowsay"
 optional = false
 python-versions = "*"
-version = "3.03"
+version = "2.0.3"
 
 [[package]]
 category = "main"
