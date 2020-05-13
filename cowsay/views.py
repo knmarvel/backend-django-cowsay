@@ -2,7 +2,6 @@ from django.shortcuts import render
 from cowsay.forms import InputTextForm
 from cowsay.models import InputText
 from cowsay.helpers import cow_translator
-import subprocess
 
 def index(request):
     empty_form = InputTextForm()
