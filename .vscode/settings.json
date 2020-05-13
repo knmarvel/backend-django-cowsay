@@ -1,3 +1,8 @@
 {
-    "python.autoComplete.extraPaths": ["./djangocowsay/"]
+    "python.autoComplete.extraPaths": [
+        "./djangocowsay/"
+    ],
+    "python.pythonPath": "/Users/nynaeve/.pyenv/versions/3.8.1/bin/python",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
