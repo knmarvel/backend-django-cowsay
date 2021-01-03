@@ -6,7 +6,7 @@ class InputTextForm(forms.Form):
         ("default", "default"),
         ("bud-frogs", "bud-frogs"),
         ("bunny", "bunny"),
-        ("calvin", "calvin")
+        ("calvin", "calvin"),
         ("cheese", "cheese"),
         ("cower", "cower"),
         ("daemon", "daemon"),
