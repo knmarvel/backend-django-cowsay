@@ -1,0 +1,17 @@
+asgiref @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/35/70/86/89a92e3ef6d7592e1b9a5dd2412ad5dbeecded9571f061d472063e9443/asgiref-3.2.7-py2.py3-none-any.whl
+attrs @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/a8/1b/6a/b3d559eaf867d4462ebf9588ea69395aeb893d88a543bdeb24c4d7cb7a/attrs-19.3.0-py2.py3-none-any.whl
+Django @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/2b/e0/2c/5156cd9deb8d7aceef58f70f8acdd69ad650b70e062c5f98dfa437469b/Django-3.0.6-py3-none-any.whl
+flake8 @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/0a/b8/7f/395d9f8c33f8be2404761153f5882de568d65c2e0ab992b0ea9cabc23e/flake8-3.8.1-py2.py3-none-any.whl
+mccabe @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/96/5e/5f/21ae5296697ca7f94de4da6e21d4936d74029c352a35202e4c339a4253/mccabe-0.6.1-py2.py3-none-any.whl
+more-itertools @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/3c/ed/1d/3601b3d0ba8d9160f2be529b8235b2c8aa9d7dc874d223340049c5fa47/more_itertools-8.2.0-py3-none-any.whl
+packaging @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/a0/db/33/a6b21fe29c4aec9d5c92cb32e6fe13fb404c6bf08547a59411f5728895/packaging-20.3-py2.py3-none-any.whl
+pluggy @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/29/58/fc/ed8b7451d3ef91a6465024f5656141da996e7aafd4d41a1659629a75e7/pluggy-0.13.1-py2.py3-none-any.whl
+py @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/b0/ea/0f/e85712cd99d7d0ba7c3f3f87bcc3561b100e6fe10edd87444cd2d6b293/py-1.8.1-py2.py3-none-any.whl
+pycodestyle @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/00/8e/03/5dd26ed1283fc5849fa141c87a1d99659b252d7a2105d6ec509c6de6cd/pycodestyle-2.6.0-py2.py3-none-any.whl
+pyflakes @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/c6/a2/76/8815e047ae91abaf39cdde4a16f52907ed96ae14e12a498dd0704cb43a/pyflakes-2.2.0-py2.py3-none-any.whl
+pyparsing @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/92/0f/cf/effdcd5d76a6186df0969f85b3b030284ff8058936d5016540b5258ea3/pyparsing-2.4.7-py2.py3-none-any.whl
+pytest @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/b0/d3/83/9df87d5a45b1fb10e3532472ac3938812a7a5922239edfbbb68bda7cca/pytest-5.4.2-py3-none-any.whl
+pytz @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/a4/c0/c8/0464e7b5a93b18102a09f632cfb98afe7ce53b81ebb8b203078b44484f/pytz-2020.1-py2.py3-none-any.whl
+six @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/ce/d8/13/ed875d708a0e346d7e5542f2a11684c25bff87f9659467f22ff56c9f7a/six-1.14.0-py2.py3-none-any.whl
+sqlparse @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/78/de/2d/6077c76865b4b0253b8327e7ac7ebcd8ea7d023e157250f3ee23717af6/sqlparse-0.3.1-py2.py3-none-any.whl
+wcwidth @ file:///Users/kanomarvel/Library/Caches/pypoetry/artifacts/62/05/56/819c171b5ca2602217223d03673bb301896ddd00e82d1f51c26e49fd5f/wcwidth-0.1.9-py2.py3-none-any.whl
