@@ -8,12 +8,13 @@
   </head>
   <body>
     <h1>Cowsaid</h1>
-    <h2>Ten most recent things a cow has said.</h2>
+    <h2>the most recent things a cow has said.</h2>
     <ol>
     {% for line in history_data reversed %}
-<li class="cowtext">{{line}}</li>
-<br/>
+      <li class="cowtext">{{line}}</li>
+      <br/>
     {% endfor %}
-    </ul>
+    </ol>
+    <a href="{{homepage}}">Make the cow say more.</a>
   </body>
 </html>
